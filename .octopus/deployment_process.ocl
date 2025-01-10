@@ -6,7 +6,7 @@ step "run-a-script" {
 
     action {
         action_type = "Octopus.Script"
-        environments = ["development", "delete"]
+        environments = ["development"]
         properties = {
             Octopus.Action.RunOnServer = "false"
             Octopus.Action.Script.ScriptBody = "write-host 'hi'"
