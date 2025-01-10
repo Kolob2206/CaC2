@@ -1,0 +1,5 @@
+variable "EnvScoped" {
+    value "Value" {
+        environment = ["development", "delete"]
+    }
+}
